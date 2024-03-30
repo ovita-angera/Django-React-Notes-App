@@ -1,7 +1,12 @@
 import { FaTriangleExclamation } from 'react-icons/fa6'
 
 function NotFound() {
-    return <div>
+    return <div style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center"
+    }}>
         <FaTriangleExclamation style={{height: "200px", width: "200px", color: "red"}} />
         <h1>404 Not Found</h1>
         <p>The page you are looking for does not exist!</p>
